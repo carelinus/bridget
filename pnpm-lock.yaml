@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.9.6
     version: 1.9.6
   swiper:
-    specifier: ^11.2.6
-    version: 11.2.6
+    specifier: ^11.2.8
+    version: 11.2.8
   tiny-invariant:
     specifier: ^1.3.3
     version: 1.3.3
@@ -74,7 +74,7 @@ devDependencies:
     specifier: ^5.39.0
     version: 5.39.0
   typescript:
-    specifier: ^5.8.3
+    specifier: ^5.7.2
     version: 5.8.3
   vite:
     specifier: ^5.4.2
@@ -592,8 +592,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
-  /@napi-rs/wasm-runtime@0.2.9:
-    resolution: {integrity: sha512-OKRBiajrrxB9ATokgEQoG87Z25c67pCpYcCwmXYX8PBftC9pBfN18gnm/fh1wurSLEKIAt+QRFLFCQISrb66Jg==}
+  /@napi-rs/wasm-runtime@0.2.10:
+    resolution: {integrity: sha512-bCsCyeZEwVErsGmyPNSzwfwFn4OdxBj0mmv6hOFucB/k81Ojdu68RbZdxYsRQUPc9l6SU5F/cG+bXgWs3oUgsQ==}
     requiresBuild: true
     dependencies:
       '@emnapi/core': 1.4.3
@@ -1293,7 +1293,7 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@napi-rs/wasm-runtime': 0.2.9
+      '@napi-rs/wasm-runtime': 0.2.10
     dev: true
     optional: true
 
@@ -4041,8 +4041,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /swiper@11.2.6:
-    resolution: {integrity: sha512-8aXpYKtjy3DjcbzZfz+/OX/GhcU5h+looA6PbAzHMZT6ESSycSp9nAjPCenczgJyslV+rUGse64LMGpWE3PX9Q==}
+  /swiper@11.2.8:
+    resolution: {integrity: sha512-S5FVf6zWynPWooi7pJ7lZhSUe2snTzqLuUzbd5h5PHUOhzgvW0bLKBd2wv0ixn6/5o9vwc/IkQT74CRcLJQzeg==}
     engines: {node: '>= 4.7.0'}
     dev: false
 
